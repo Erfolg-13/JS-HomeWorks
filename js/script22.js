@@ -56,10 +56,22 @@ switch (number) {
 }
 
 /*3. Запросить у пользователя трехзначное число и проверить, есть ли в нем одинаковые цифры.*/
-const userNumber = parseInt(prompt('Enter any three-digit number.'));
-(userNumber[0] == userNumber[1] || userNumber[0] == userNumber[2] || userNumber[1] == userNumber[2]) ?
-    console.log('There is the same character in the entered number')
-    : console.log('There is not the same character in the entered number');
+const userNumber = parseInt(prompt('Enter any three-digit number.', ''));
+let number = userNumber;
+if (number[0] == number[1] || number[0] == number[2] || number[1] == number[2]) {
+    console.log('There is the same character in the entered number');
+} else {
+    console.log('There is not the same character in the entered number');
+}
+
+// Знайшла рішення, але не розібралась ще
+// console.log(prompt(`Введите трехзначное число:`).split``.filter((e, i, a) => a.join``.indexOf(e) !== a.join``.lastIndexOf(e)).join``.trim() === `` ? `Совпадений не найдено` : `Найдено совпадение цифр`);
+//     ***
+// const number = prompt('Введите трехзначное число для проверки', '222').split('');
+// let firstSymbol = strings[0];
+// let secondSymbol = strings[1];
+// let thirdSybol = strings[3];
+// (firstSymbol == secondSymbol) || (firstSymbol == thirdSybol) || (secondSymbol == thirdSybol) ? console.log('Есть совпаденияю.') : console.log('Совпадений нет.');
 
 // 4. Запросить у пользователя год и проверить, високосный он или нет. Високосный год либо кратен 400, либо кратен 4 и при этом не кратен 100.
 const year = parseInt(
