@@ -4,6 +4,7 @@
  взрослым (18_60) или пенсионером (60– ...).*/
 
 let userAge = prompt('Сколько Вам лет?', '');
+let message;
 if (userAge < 2) {
     message = 'младенец';
 } else if (userAge < 12) {
@@ -92,7 +93,7 @@ if (
 // 6. Написать конвертор валют. Пользователь вводит количество USD, выбирает, в какую валюту хочет перевести EUR, UAN или AZN, и получает в ответ соответствующую сумму.
 const number = prompt('Введите сумму в USD', '100');
 const currency = prompt('Укажите валюту для конвертации: EUR, UAH, AZN.', 'UAH');
-userNumber = parseInt(number);
+let userNumber = parseInt(number);
 let eur = userNumber * 0.82;
 let uah = userNumber * 27.91;
 let azn = userNumber * 1.70;
