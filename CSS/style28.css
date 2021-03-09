@@ -54,5 +54,24 @@
     font-weight: bold;
     padding: 20px 0;
 }
+
+.open-btn {
+    padding: 5% 0;
+}
+
+.traffic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color: grey;
+}
+
+.switch {
+    visibility: hidden;
+}
+
+
+
     
     

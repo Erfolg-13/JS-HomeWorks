@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <ol id="listContainer"></ol>
+    <div id="trackMusicList"></div>
+    <!-- <ol id="listContainer"></ol> перший спосіб-->
 
     <div id="popup" class="popup">
         <div class="popup_body">
@@ -26,8 +27,19 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="open-btn">
         <button class="popup-open">Открыть</button>
+    </div>
+    <div class="traffic-container">
+        <h2>Traffic lights</h2>
+        <a href="#" class="switch is-visible">Stop</a>
+        <a href="#" class="switch">Get ready</a>
+        <a href="#" class="switch">Go</a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <div class="traffic color-red"></div>
+        <div class="traffic color-yellow"></div>
+        <div class="traffic color-green"></div>
     </div>
 
     <script type="text/javascript" src="./js/script28.js"></script>
