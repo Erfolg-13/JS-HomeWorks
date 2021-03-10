@@ -13,7 +13,7 @@
 //         modalContent.remove('show')
 //     }
 // });
-// Завдання було вирішено, додавши клас Bootstrap (data-bs-dismiss="modal") до кнопки onclickCloseModal.
+// Завдання було вирішино, додавши клас Bootstrap (data-bs-dismiss="modal") до кнопки onclickCloseModal.
 
 //2.Navigation. Реалізувати навігаційну панель Навігаційну панель з фреймворку Bootstrap
 //-По кліку на навігаційний елемент заборонити перехід на зовнішні сторінки.
