@@ -69,11 +69,13 @@
 .slider-wrapper .slick-arrow.slick-prev {
     left: 0;
     background: url(../Images/left-toggle.png) 0 0 / 100% no-repeat;
+    cursor: pointer;
 }
 
 .slider-wrapper .slick-arrow.slick-next {
     right: 0;
     background: url(../Images/right-toggle.png) 0 0 / 100% no-repeat;
+    cursor: pointer;
 }
 
 .slider-wrapper .slick-dots {
