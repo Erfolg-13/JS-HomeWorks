@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+#mapid { 
+    height: 80vh; 
+    width: 80vh;
+    margin: 20px auto;
+}
