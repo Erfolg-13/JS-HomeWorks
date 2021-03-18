@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+#page h1 {
+    text-align: center;
+    color: chocolate;
+}
+.form {
+    background-color:#4e7796;
+    padding: 50px 50px 30px;
+    margin: 80px 0;
+    border-radius: 16px;
+}
+
+fieldset {
+    border:none;
+}
+
+#s{
+   border: none;
+   color: #888888;
+   font-size: 15px;
+   height: 36px;
+   line-height: 36px;
+   margin: 12px auto;
+   padding: 0 0 0 35px;
+   text-shadow:1px 1px 0 white;
+   width: 385px;
+}
+ 
+#submitButton{
+    margin: 0 auto;
+    margin: 12px;
+    width: 83px;
+    height: 36px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.text-white {
+    color: #fff;
+}
+   
+     
+    
+    
+    
