@@ -6,12 +6,12 @@ const marker = L.marker([50.448384, 30.526913]).addTo(mymap);
 const artCenterMarker = L.marker([50.441655, 30.521457]).addTo(mymap);
 const cathedralSophiaMarker = L.marker([50.4529, 30.514328]).addTo(mymap);
 
-marker.bindPopup("<b>UKRAINE hotel ****</b><br><p>Kyiv, 4 Instytutska str.</p>").openPopup();
-artCenterMarker.bindPopup("<b>Pinchuk Art Centre</b><br><b>Location:</b><p>1/3-2 Velyka Vasylkivska / Baseyna str., Kyiv, Ukraine <br>+380 44 590-08-58</p>").openPopup();
+marker.bindPopup('<b>UKRAINE hotel ****</b><br><p>Kyiv, 4 Instytutska str.</p><br><a href="https://ukraine-hotel.kiev.ua/">Go to official site</a>').openPopup();
+artCenterMarker.bindPopup(`<b>Pinchuk Art Centre</b><br><b>Location:</b><p>1/3-2 Velyka Vasylkivska / Baseyna str., Kyiv, Ukraine</p><br><a href="tel:+380442792256">Call</a>`).openPopup();
 cathedralSophiaMarker.bindPopup(
-    "<b>SOPHIA of Kyiv</b><br><p>24, Volodymyrska street, Kyiv, Ukraine, 01001<br>Information on prices and excursions (044)279-22-56</p><br>"
-)
-var popup = L.popup();
+    `<b>SOPHIA of Kyiv</b><br>24, Volodymyrska street, Kyiv, Ukraine, 01001<br>Information on prices and excursions<br><a href="tel:+380442792256">Call</a><br><img src="./IMG/sobor-1-150x150.jpg" alt="sobor-1-150x150">`
+);
+const popup = L.popup();
 
 function onMapClick(e) {
     popup
