@@ -50,6 +50,46 @@ fieldset {
 .text-white {
     color: #fff;
 }
+
+#result {
+    position: relative;
+}
+
+.console {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.addToFavBTN {
+    margin-bottom: 10px;
+}
+
+.addToFavBTN,
+.showFavBTN {
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: coral;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.showFavBTN {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.addToFavBTN:focus {
+    background-color: rgb(255, 80, 80);
+    border: 1px solid transparent;
+}
+
+
    
      
     
